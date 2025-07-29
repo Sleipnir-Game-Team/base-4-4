@@ -3,6 +3,7 @@ extends Control
 func _ready() -> void:
 	UI_Controller.stack.screens.append(self)
 
+
 ## Função que roda quando você aperta o botão de "jogar"
 func _on_play_button_pressed() -> void:
 	AudioManager.play_global("ui.button.click")

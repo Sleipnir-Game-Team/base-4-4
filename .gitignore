@@ -27,3 +27,8 @@ mono_crash.*.json
 **.asd
 
 **.tmp
+
+# Icones de addons (addon não carrega sem)
+
+!/addons/sleipnir_audio/icons/*.svg
+!/addons/sleipnir_audio/icons/*.png
