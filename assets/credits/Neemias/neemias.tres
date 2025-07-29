@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=3 format=3 uid="uid://wns6r18pu0yj"]
+
+[ext_resource type="Texture2D" uid="uid://ctca0jyt4drky" path="res://assets/credits/Neemias/CreaturePontoJpg.png" id="1_fpvxk"]
+[ext_resource type="Script" uid="uid://mhl45ehyaakn" path="res://ui/info.gd" id="2_fpbvw"]
+
+[resource]
+script = ExtResource("2_fpbvw")
+name = "Neemias Dias"
+function = Array[String](["Diretor de Arte", "Artista 2D"])
+contact = "Neodootvt@gmail.com"
+pfp = ExtResource("1_fpvxk")

@@ -60,6 +60,11 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 32
 text = "Configuração"
 
+[node name="credits_button" type="Button" parent="GridContainer/content_container/MarginContainer/button_container"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Créditos"
+
 [node name="quit_button" type="Button" parent="GridContainer/content_container/MarginContainer/button_container"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 32
@@ -79,4 +84,5 @@ size_flags_vertical = 3
 
 [connection signal="pressed" from="GridContainer/content_container/MarginContainer/button_container/play_button" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="GridContainer/content_container/MarginContainer/button_container/options_button" to="." method="_on_options_button_pressed"]
+[connection signal="pressed" from="GridContainer/content_container/MarginContainer/button_container/credits_button" to="." method="_on_credits_button_pressed"]
 [connection signal="pressed" from="GridContainer/content_container/MarginContainer/button_container/quit_button" to="." method="_on_quit_button_pressed"]
